@@ -178,6 +178,7 @@
         self.whereClause = self.locationColumn + " not equal to ''";
         
         //-----custom filters-----
+        
         //-----end of custom filters-----
 
         self.getgeoCondition(address, function (geoCondition) {
